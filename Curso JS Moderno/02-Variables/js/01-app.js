@@ -31,7 +31,7 @@ console.log(marca)
 console.log(calificacion)
 
 
-// Reglas para llamar las varialbes:
+// Reglas para llamar las variables:
 
 // Pueden tener: letras, numeros, el simbolo $, y el simbolo  _
 // Pero NO pueden iniciar con numero
