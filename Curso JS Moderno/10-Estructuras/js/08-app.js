@@ -1,5 +1,12 @@
 // el operador ternario sigue la sintaxis (condicion) ? si es true ejecuta aqui : si no es true ejecuta esta;
 
-const autenticado = true;
+let autenticado = true;
+let puedePagar = true;
 
-console.log(autenticado ? "user autenticado" : "crea una cuenta")
+console.log(autenticado && puedePagar ? "user autenticado" : "crea una cuenta")
+
+
+// en el siguiente ejemplo saldra la segunda parte del codigo
+puedePagar = false;
+
+console.log(autenticado && puedePagar ? "user autenticado" : "crea una cuenta")
